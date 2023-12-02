@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1077899082353",
+    "project_id": "talesweave-a3b58",
+    "storage_bucket": "talesweave-a3b58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077899082353:android:84d2d168a6f844dec0b9d0",
+        "android_client_info": {
+          "package_name": "com.dicoding.talesweave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077899082353-7hbj6ioluij6snoibnr8mp05bdq59v25.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dicoding.talesweave",
+            "certificate_hash": "237405bc76430b0266a7fb92bd3f42851be031de"
+          }
+        },
+        {
+          "client_id": "1077899082353-ip27v1utbcko681569un8hhbmvprpadn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-tOwYO51KHD-vg1PPaBPqu44dJaSBYiA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077899082353-ip27v1utbcko681569un8hhbmvprpadn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

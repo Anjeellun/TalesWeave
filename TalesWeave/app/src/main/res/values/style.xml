@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TitleStyle">
+        <item name="android:fontFamily">@font/sundaymango</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="Font1">
+        <item name="android:fontFamily">@font/fantasymagist</item>
+    </style>
+
+    <style name="Fonts2">
+        <item name="android:fontFamily">@font/cinnamoncoffecake</item>
+    </style>
+
+</resources>

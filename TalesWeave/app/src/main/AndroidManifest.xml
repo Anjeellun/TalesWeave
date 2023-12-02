@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/open_launch2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TalesWeave"
+        tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC6p51e4dtPzIwHMO4PtRM9RHPuKc8YmJ8" />
+
+        <activity
+            android:name=".maps.MapsAct"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".loginregist.WelcomeAct"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".loginregist.RegisterAct"
+            android:exported="false" />
+        <activity
+            android:name=".main.DetailAct"
+            android:exported="false" />
+        <activity
+            android:name=".main.CameraAct"
+            android:exported="false" />
+        <activity
+            android:name=".loginregist.LoginAct"
+            android:exported="false" />
+        <activity
+            android:name=".main.AddStoryAct"
+            android:exported="false" />
+        <activity
+            android:name=".main.MainAct"
+            android:exported="false" />
+        <activity
+            android:name=".loginregist.ForgotPassAct"
+            android:exported="false" />
+    </application>
+
+</manifest>

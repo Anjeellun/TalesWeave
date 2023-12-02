@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TalesWeave" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary -->
+        <item name="colorPrimary">@color/Lilac</item>
+        <item name="colorPrimaryVariant">@color/Lilac</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/DarkLilac</item>
+        <item name="colorSecondaryVariant">@color/DarkLilac</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/DarkLilac</item>
+    </style>
+</resources>

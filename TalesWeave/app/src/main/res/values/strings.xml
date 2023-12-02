@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tales Weave</string>
+    <string name="welcome">Welcome to Tales Weave, Dear Reader!</string>
+    <string name="welcomedesc">Get started and find the stories you are looking for.</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satellite</string>
+    <string name="terrain_type">Terrain</string>
+    <string name="hybrid_type">Hybrid</string>
+    <string name="PasswordNotif">"You must enter at least 8 characters"</string>
+</resources>
